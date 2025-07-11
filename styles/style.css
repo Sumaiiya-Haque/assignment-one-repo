@@ -1,13 +1,17 @@
 body{
 
-.raleway-normal {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:600;
-  font-style: normal;
 }
-    background-color: #f5f8ff;
+
+main{
+     background-color: #f5f8ff;
 }
+
+.action-section,
+.productive-section{
+    margin: 40px auto;
+}
+
 
 
 /* nav style */
@@ -89,15 +93,87 @@ background-color: rgba(78, 71, 255, 1);
     font-weight: bold;
 }
 /* productive style */
- .productive-div{
-    display: flex;
-    gap: 160px;
-    
-}
+
 .productive-section{
+    background-color: #f0f4ff;
+    padding: 80px 50px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-shadow: ;
+    height: 300px;
+    width: 1000px;
+}
+
+.productive-section h2{
+font-weight:bold;
+font-size: 38px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+ .productive-section-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+    .productive-box{
+        font-size: 80px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .productive-box p{
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+/* .productive-section{
     text-align: center;
     margin-right: 160px;
     margin-left: 140px;
     display: flex;
     gap: 160px;
+} */
+
+/* get in touch section */
+
+.form-section{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: ;
 }
+
+.form-title{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+/* footer style */
+
+  .form-section input[type="text"], footer input[type="email"], footer textarea{
+height: 65px;
+border-radius: 5px;
+background-color: white;
+display: block;
+width: 100%;
+padding:10px 20px;
+margin-bottom: 24px;
+border: none;
+
+  }
+  footer{
+    text-align: center;
+  }
+  footer ul li {
+    
+    list-style-type: none;  
+  }
+  footer ul li a{
+    text-decoration: none;
+  }
+  
