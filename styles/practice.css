@@ -1,0 +1,21 @@
+ 
+ /* nav style */
+ nav{
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-between;
+    max-width: 1140px;
+
+}
+.nav-logo{
+color: rgba(78, 71, 255, 1);
+}
+
+.nav-btn{
+   background-color: rgba(78, 71, 255, 1);
+cursor: pointer; 
+color:rgba(255, 255, 255, 1);
+width: 60px;
+height: 40px;
+
+}
