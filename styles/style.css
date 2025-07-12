@@ -216,7 +216,9 @@ font-family:"Inter", sans-serif ;
   text-align: center;
   padding: 30px;
   background-color: white; 
-  color: black;             
+  color: black;     
+  margin-bottom: 100px;  
+  margin-top: 100px;      
 }
 
 footer h1 {
@@ -250,38 +252,40 @@ footer p,
 
 
 .main-form {
-    border: 2px solid green;
+    /* border: 1px solid rgb(225, 234, 225); */
     display: flex;
     justify-content: space-between;
     margin-left: 170px;
     margin-right: 170px;
-    gap: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
     
 }
 
 form {
-    border: 2px solid green;
+    border: 1px solid rgb(238, 245, 238);
     width: 50%;
     font-family: "Inter", sans-serif;
 
 }
 
 .main-form h1 {
-    border: 2px solid green;
-    width: 40%; 
-    /* text-align: center; */
+
+     text-align:justify;
     padding-top: 100px;
     padding-bottom: 0px;
     font-size: 70px;
-    padding-left: 120px;
+    padding-left: 0px;
     padding-right:100px;
     font-family:"Raleway", sans-serif ;
     font-weight: bold;
+    
     
 }
 form input[type="text"] {
     height: 64px;
     border-radius: 5px;
+    border:#D6DDED;
     background-color: white;
     display: block;
     width: 100%;
@@ -291,6 +295,7 @@ form input[type="text"] {
 form input[type="email"] {
     height: 64px;
     border-radius: 5px;
+    border:#D6DDED;
     background-color: white;
     display: block;
     width: 100%;
@@ -300,6 +305,7 @@ form input[type="email"] {
 form textarea {
     height: 150px;
     border-radius: 5px;
+    border:#D6DDED;
     background-color: white;
     display: block;
     width: 100%;
@@ -308,6 +314,7 @@ form textarea {
 
 form button {
     height: 64px;
+    border:#D6DDED;
     border-radius: 5px;
     background-color:rgba(78, 71, 255, 1);
     color: white;
@@ -319,5 +326,5 @@ form button {
 form button:hover{
      background-color: darkcyan;
     transform: scale(1.05);
-    /* text-shadow: o o 8x white; */
+    cursor: pointer;
 }
