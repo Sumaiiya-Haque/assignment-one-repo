@@ -255,7 +255,6 @@ footer p,
     justify-content: space-between;
     margin-left: 170px;
     margin-right: 170px;
-    padding-bottom: 100px;
     gap: 100px;
     
 }
@@ -277,6 +276,7 @@ form {
     padding-left: 120px;
     padding-right:100px;
     font-family:"Raleway", sans-serif ;
+    font-weight: bold;
     
 }
 form input[type="text"] {
@@ -285,6 +285,7 @@ form input[type="text"] {
     background-color: white;
     display: block;
     width: 100%;
+    font-family: "Inter", sans-serif;
 }
 
 form input[type="email"] {
@@ -292,7 +293,8 @@ form input[type="email"] {
     border-radius: 5px;
     background-color: white;
     display: block;
-    width: 100%
+    width: 100%;
+    font-family: "Inter", sans-serif;
 }
 
 form textarea {
@@ -300,13 +302,22 @@ form textarea {
     border-radius: 5px;
     background-color: white;
     display: block;
-    width: 100%
+    width: 100%;
+    font-family: "Inter", sans-serif;
 }
 
 form button {
     height: 64px;
     border-radius: 5px;
-    background-color: white;
+    background-color:rgba(78, 71, 255, 1);
+    color: white;
     display: block;
-    width: 100%
+    width: 100%;
+    font-family: "Inter", sans-serif;
+
 } 
+form button:hover{
+     background-color: darkcyan;
+    transform: scale(1.05);
+    /* text-shadow: o o 8x white; */
+}
